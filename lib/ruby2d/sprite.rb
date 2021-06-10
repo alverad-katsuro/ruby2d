@@ -61,7 +61,7 @@ module Ruby2D
 
       # Set the sprite defaults
       @defaults = {
-        animation:   @animations.first[0],
+        animation:   @animations.first,
         frame:       @current_frame,
         frame_time:  @frame_time,
         clip_x:      @clip_x,
